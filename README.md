@@ -22,17 +22,17 @@ Want to poke at it first, like a user would? You can demo the 'latest' build [he
 
 Features carried over from nvALT:
 
-* Modeless Operation
-* Link notes together
-* Mouseless interaction
-* No need to 'save'
-* Markdown formatting
+- Modeless Operation
+- Link notes together
+- Mouseless interaction
+- No need to 'save'
+- Markdown formatting
 
 Features unique to nakedNV:
 
-* Used RxDB for local note storage, can also sync to remote endpoint
-* Download your notes collection as a zip file
-* Drag and drop zips of notes to import them
+- Used RxDB for local note storage, can also sync to remote endpoint
+- Download your notes collection as a zip file
+- Drag and drop zips of notes to import them
 
 ## Development
 

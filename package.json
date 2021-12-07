@@ -16,32 +16,32 @@
     "validate": "svelte-check"
   },
   "devDependencies": {
-    "@rollup/plugin-commonjs": "^17.0.0",
-    "@rollup/plugin-node-resolve": "^11.0.0",
-    "@rollup/plugin-typescript": "^8.0.0",
-    "@tsconfig/svelte": "^1.0.0",
-    "@types/file-saver": "^2.0.3",
-    "@types/uuid": "^8.3.0",
-    "date-fns": "^2.22.1",
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "@rollup/plugin-typescript": "^8.3.0",
+    "@tsconfig/svelte": "^2.0.1",
+    "@types/file-saver": "^2.0.4",
+    "@types/uuid": "^8.3.3",
+    "date-fns": "^2.27.0",
     "file-saver": "^2.0.5",
-    "jszip": "^3.6.0",
+    "jszip": "^3.7.1",
     "pouchdb-adapter-idb": "^7.2.2",
-    "rollup": "^2.3.4",
+    "rollup": "^2.60.2",
     "rollup-plugin-css-only": "^3.1.0",
-    "rollup-plugin-livereload": "^2.0.0",
+    "rollup-plugin-livereload": "^2.0.5",
     "rollup-plugin-node-builtins": "^2.1.2",
-    "rollup-plugin-svelte": "^7.0.0",
-    "rollup-plugin-terser": "^7.0.0",
-    "rxdb": "^9.20.0",
-    "rxjs": "^7.0.1",
-    "svelte": "^3.0.0",
-    "svelte-check": "^1.0.0",
+    "rollup-plugin-svelte": "^7.1.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "rxdb": "^10.5.4",
+    "rxjs": "^7.4.0",
+    "svelte": "^3.44.2",
+    "svelte-check": "^2.2.10",
     "svelte-icons": "^2.1.0",
-    "svelte-preprocess": "^4.0.0",
-    "tslib": "^2.0.0",
-    "typescript": "^4.0.0"
+    "svelte-preprocess": "^4.9.8",
+    "tslib": "^2.3.1",
+    "typescript": "^4.5.2"
   },
   "dependencies": {
-    "sirv-cli": "^1.0.0"
+    "sirv-cli": "^1.0.14"
   }
 }

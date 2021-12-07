@@ -3,9 +3,10 @@ const noteSchema = {
   description: 'an individual note',
   version: 0,
   type: 'object',
+  primaryKey: 'name',
   indexes: [
     'createdAt',
-    'updatedAt'
+    'updatedAt',
     // 'creditCards.[].cvc',
     // ['lastName', 'familyName'] // <- this will create a compound-index for these two fields
   ],
@@ -15,10 +16,10 @@ const noteSchema = {
       // primary: true
     },
     type: {
-      type: 'string'
+      type: 'string',
     },
     body: {
-      type: 'string'
+      type: 'string',
     },
     createdAt: {
       type: 'number',
@@ -27,7 +28,7 @@ const noteSchema = {
       type: 'number',
     },
     currentSelection: {
-      type: "string"
+      type: 'string',
     },
   },
   required: ['name'],
